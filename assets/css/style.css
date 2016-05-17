@@ -344,3 +344,12 @@ textarea {
 
 
 }
+
+/* Start of Form Customize */
+
+.regis input,
+.regis textarea{
+  outline: none;
+}
+
+/* End of Form Customize */
