@@ -297,6 +297,13 @@ textarea {
   text-align:center;
   border:none;
   margin-top: 30px;
+  transition: .3s;
+}
+
+.run-button:hover{
+  color: white;
+  background-color: #00c957;
+  transition: .3s;
 }
 
 /* Responsive */
