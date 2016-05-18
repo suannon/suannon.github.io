@@ -294,8 +294,8 @@ textarea {
   border-radius:5px;
   border-color:#B4B4B4;
   font-family:"Sukhumvit Set","Prompt", sans-serif;
-      font-weight:200;
-      padding:5px 5px 5px 5px;
+  font-weight:200;
+  padding:5px 5px 5px 5px;
 }
 
 .string-input {
@@ -409,6 +409,14 @@ textarea {
   .credit {
     margin:20px 0 20px 0;
     font-size:.5em;
+  }
+
+  .window {
+    width:80%;
+  }
+
+  textarea {
+    width:97%;
   }
 
 }
