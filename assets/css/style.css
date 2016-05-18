@@ -199,7 +199,7 @@ header {
 }
 
 .club-story {
-  font-family: "Prompt", sans-serif;
+  font-family:"Sukhumvit Set", "Prompt", sans-serif;
   font-weight:300;
   text-align:center;
   margin-top:150px;
@@ -293,7 +293,7 @@ textarea {
   color:#f2f2f2;
   border-radius:5px;
   border-color:#B4B4B4;
-      font-family:"Prompt";
+  font-family:"Sukhumvit Set","Prompt", sans-serif;
       font-weight:200;
       padding:5px 5px 5px 5px;
 }
@@ -305,8 +305,8 @@ textarea {
   border-style: solid;
   border:none;
   border-bottom: 1px solid #B4B4B4;
-    font-family:"Prompt";
-          font-weight:200;
+  font-family:"Sukhumvit Set","Prompt", sans-serif;
+  font-weight:200;
 }
 
 .num-input {
@@ -316,7 +316,7 @@ textarea {
   border-style: solid;
   border:none;
   border-bottom: 1px solid #B4B4B4;
-    font-family:"Prompt";
+  font-family:"Sukhumvit Set","Prompt", sans-serif;
           font-weight:200;
 }
 
@@ -330,7 +330,7 @@ textarea {
 
 .run-button {
   width:120px;
-  font-family:"Prompt";
+  font-family:"Sukhumvit Set","Prompt", sans-serif;
   height:35px;
   border-radius:5px;
   background-color:#fff;

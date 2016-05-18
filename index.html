@@ -109,24 +109,29 @@ Copyright 2016 Computer Olympic SKN - All rights reserved.
     <p>ถึงตาของคุณแล้วที่จะเล่าเรื่องราวของคุณให้เราฟัง แล้วเราจะติดต่อกลับไปหาคุณ     <span class="notice">โปรดเข้าใจว่านี่ไม่ใช่การสมัคร เป็นเพียงการลงทะเบียนความสนใจเพื่อรอการติดต่อกลับ</span> <span class="blink_cursor">|</span></p>
     <p>
     <ul class='window text-editor'>
-      <!--
+
+      <form action="https://formspree.io/title409@icloud.com"
+      method="POST" >
       <h5>/* แนะนำตัวเอง และบอกเหตุผลที่สนใจในชุมนุมนี้ */</h5>
       <span class="red-color">var</span> Info.story = {
-      <textarea placeholder="" id="story" rows="8" cols="0"></textarea>
+      <textarea name="name" placeholder="" id="story" rows="8" cols="0"></textarea>
     } <br/>
     <h5>/* ชื่อเล่น */</h5>
-    <span class="red-color">var</span> Info.name = " <input id="name" type="text" name="entry.79610455" value="" class="string-input" > " ;
+    <span class="red-color">var</span> Info.name = " <input id="name" placeholder="" type="text" name="name" class="string-input" > " ;
         <h5>/* อายุ */</h5>
         <span class="red-color">var</span> Info.age = "
-        <input  id="age" type="number" class="num-input"></input> " ;
+        <input  id="age" name="name" type="text" class="num-input"></input> " ;
         <h5>/* Facebook หรือ เบอร์โทรติดต่อกลับ */</h5>
         <span class="red-color">var</span> Info.contact = "
-         <input id="contact" type="text" class="string-input"> ;
-        <br/><span class="violet-color">Send.form </span>(Info);
+         <input id="contact" name="name" type="text" class="string-input"> ;
         <br/>
-        <input type="submit" name="submit" class="run-button" value="ส่งรายละเอียด">
-      --->
-      <h5><br/><br/><br/>/* เรากำลังเตรียมพร้อมระบบลงทะเบียน ไม่นานเกินรอ */<br/><br/><br/><br/><br/><br/></h5>
+        <span class="violet-color">Send.form </span>(Info);
+        <br/>
+        <input type="submit" class="run-button" value="ส่งรายละเอียด">
+        <input type="hidden" name="_subject" value="สนใจในการลงทะเบียน Com-O" />
+        <input type="hidden" name="_next" value="/thankyou" />
+
+      </form>
     </ul>
   </p>
   <br/>
