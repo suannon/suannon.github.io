@@ -63,7 +63,7 @@ body, input, textarea, select, button {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "Prompt", sans-serif;
+  -moz-font-feature-settings:"Sukhumvit Set", "Prompt", sans-serif;
  }
 
 body {
@@ -88,7 +88,7 @@ h2 {
 
 
 h3,h4,h5 {
-  font-family: "Prompt", sans-serif;
+  font-family:"Sukhumvit Set", "Prompt", sans-serif;
   color:#00c957;
   font-weight:300;
   letter-spacing:0px;
@@ -112,7 +112,15 @@ section {
   text-align:center;
 }
 
+.credit {
+  margin:0px 0 30px 0;
+  text-align:center;
+  font-size:1em;
+}
 
+.notice {
+  color:#D6D6D6;
+}
 
 /* Header */
 
@@ -219,11 +227,26 @@ header {
   padding:0% 35% 0px 35%;
 }
 
+.social-media-icon {
+  position:relative;
+  line-height:130px;
+  font-size:50px;
+  color:#D6D6D6;
+  text-align:center;
+  margin:100px 15px 0px 15px;
+}
+
+.social-media-icon:hover {
+  color: #fff;
+  transition: .3s;
+}
+
+
 /* Text Editor */
 
 .window {
   width:50%;
-  margin:0 auto;
+  margin:40px auto auto auto;
   border-top:25px solid #b4b4b4;
   border-radius:10px;
   padding:2%;
@@ -313,6 +336,7 @@ textarea {
   background-color: #00c957;
   transition: .3s;
 }
+
 
 
 
