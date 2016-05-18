@@ -108,7 +108,8 @@ p {
 }
 
 section {
-  height:80vh;
+  margin:35vh 0px 0px 0px;
+  height:100%;
   text-align:center;
 }
 
@@ -261,9 +262,21 @@ header {
 }
 
 .contact {
-
   margin-top:20%;
+}
 
+.leader {
+  font-size:16px;
+}
+
+.leader a{
+  letter-spacing:2px;
+  color:#00B0A8;
+  text-decoration:none;
+}
+
+.leader a:hover{
+  text-decoration:underline;
 }
 
 /* Form */
@@ -345,6 +358,11 @@ textarea {
 
 @media screen and (max-width:800px) {
 
+  section {
+    margin:20vh 0px 0px 0px;
+    height:100%;
+  }
+
   .club-logo {
     margin-left:0px;
   }
@@ -382,7 +400,16 @@ textarea {
     font-size:20px;
   }
 
+  .leader {
+    font-size:11px;
+    padding:0% 1% 0px 1%;
+  }
 
+
+  .credit {
+    margin:20px 0 20px 0;
+    font-size:.5em;
+  }
 
 }
 
