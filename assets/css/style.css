@@ -237,6 +237,11 @@ header {
   text-align:left;
 }
 
+.contact {
+
+  margin-top:20%;
+
+}
 
 /* Form */
 
@@ -308,6 +313,8 @@ textarea {
   background-color: #00c957;
   transition: .3s;
 }
+
+
 
 /* Responsive */
 
