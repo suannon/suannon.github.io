@@ -10,6 +10,8 @@
 		}
 		return obj;
 	}
+	
+	// letter and time setting 
 
 	var defaults = {
 		letterDelay: 100, //milliseconds
